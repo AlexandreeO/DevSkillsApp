@@ -15,8 +15,5 @@ router.get('/react', function(req, res, next) {
   res.render('index', { title: 'React' });
 });
 
-router.get('/react', function(req, res, next) {
-  res.render('index', { title: 'React' });
-});
 
 module.exports = router;
