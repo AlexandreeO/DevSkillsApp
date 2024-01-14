@@ -45,9 +45,20 @@ nav a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
 
 }
 
 nav a:hover {
   color: #007bff;
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid transparent;
+  color: white;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
 }

@@ -3,6 +3,16 @@ const { mySkills } = require("../model/skillsData");
 var router = express.Router();
 
 /* GET skills listing. */
+
+router.get("/add", function (req, res, next) {
+  res.render("addskill", { title: "Adding a new skill" });
+});
+
+router.post("/submit", function (req, res, next) {
+  console.log(req.body)
+  res.redirect("/");
+});
+
 router.get("/:id", function (req, res, next) {
     console.log(req.params.id);
     res.render("skills", {
@@ -12,5 +22,8 @@ router.get("/:id", function (req, res, next) {
         }),
     });
 });
+
+
+
 
 module.exports = router;
