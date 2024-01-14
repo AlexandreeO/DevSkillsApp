@@ -1,19 +1,16 @@
-var express = require('express');
+var express = require("express");
+const { mySkills } = require("../model/skillsData");
 var router = express.Router();
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+/* GET skills listing. */
+router.get("/:id", function (req, res, next) {
+    console.log(req.params.id);
+    res.render("skills", {
+        title: "My Skills",
+        skill: mySkills.find((skill) => {
+            return skill.id === Number(req.params.id);
+        }),
+    });
 });
-
-
-router.get('/javascript', function(req, res, next) {
-  res.render('index', { title: 'JavaScript' });
-});
-
-router.get('/react', function(req, res, next) {
-  res.render('index', { title: 'React' });
-});
-
 
 module.exports = router;

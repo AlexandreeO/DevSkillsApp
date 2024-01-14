@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>I know <%= title %></p>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title><%= title %></title>
+        <link rel="stylesheet" href="../stylesheets/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1><%= skill.name %> Subskills</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/"> Home </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <ol>
+            <% for (let subSkill of skill.subSkills) { %>
+            <li>
+                <a href="<%= subSkill.link %>"><%= subSkill.name %></a> : <%=
+                subSkill.description %>
+            </li>
+            <% } %>
+        </ol>
+    </body>
 </html>
