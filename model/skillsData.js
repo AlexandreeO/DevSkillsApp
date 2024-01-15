@@ -11,20 +11,20 @@ const mySkills = [
             {
                 name: "Semantic HTML",
                 description:
-                    "Proper use of semantic tags for better structure and accessibility.",
-                link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Document_and_website_structure"
+                    "Proper use of semantic tags for better structure and accessibility",
+                link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Document_and_website_structure",
             },
             {
                 name: "Forms and Validation",
                 description:
                     "Creating forms and handling user input, along with form validation",
-                link: "https://developer.mozilla.org/en-US/docs/Learn/Forms"
+                link: "https://developer.mozilla.org/en-US/docs/Learn/Forms",
             },
             {
                 name: "HTML Accessibility",
                 description:
-                    "Implementing features to enhance web accessibility for users with disabilities.",
-                link: "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+                    "Implementing features to enhance web accessibility for users with disabilities",
+                link: "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
             },
         ],
     },
@@ -38,19 +38,22 @@ const mySkills = [
         ],
         subSkills: [
             {
-                name: "Semantic HTML",
+                name: "Responsive Design",
                 description:
-                    "Proper use of semantic tags for better structure and accessibility.",
+                    "Creating styles that adapt to different screen sizes for a seamless user experience",
+                link: "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design",
             },
             {
-                name: "Forms and Validation",
+                name: "Flexbox and Grid",
                 description:
-                    "Creating forms and handling user input, along with form validation",
+                    "Mastering layout techniques using CSS Flexbox and Grid for efficient design",
+                link: "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox",
             },
             {
-                name: "HTML Accessibility",
+                name: "CSS Transitions and Animations",
                 description:
                     "Implementing features to enhance web accessibility for users with disabilities.",
+                link: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions",
             },
         ],
     },
@@ -64,19 +67,22 @@ const mySkills = [
         ],
         subSkills: [
             {
-                name: "Semantic HTML",
+                name: "DOM Manipulation",
                 description:
-                    "Proper use of semantic tags for better structure and accessibility.",
+                    "Interacting with the Document Object Model to dynamically update web content",
+                link: "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
             },
             {
-                name: "Forms and Validation",
+                name: "Event Handling",
                 description:
-                    "Creating forms and handling user input, along with form validation",
+                    "Managing user interactions by handling various events",
+                link: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events",
             },
             {
-                name: "HTML Accessibility",
+                name: "Asynchronous Programming",
                 description:
-                    "Implementing features to enhance web accessibility for users with disabilities.",
+                    "Working with asynchronous tasks, such as fetching data from APIs",
+                link: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous",
             },
         ],
     },
@@ -90,19 +96,22 @@ const mySkills = [
         ],
         subSkills: [
             {
-                name: "Semantic HTML",
+                name: "Component Lifecycle",
                 description:
-                    "Proper use of semantic tags for better structure and accessibility.",
+                    "Understanding the lifecycle methods of React components",
+                link: "https://reactjs.org/docs/react-component.html",
             },
             {
-                name: "Forms and Validation",
+                name: "State and Props",
                 description:
-                    "Creating forms and handling user input, along with form validation",
+                    "Mastering the concepts of state and props for data management",
+                link: "https://reactjs.org/docs/state-and-lifecycle.html",
             },
             {
-                name: "HTML Accessibility",
+                name: "React Router",
                 description:
-                    "Implementing features to enhance web accessibility for users with disabilities.",
+                    "Implementing client-side routing in React applications",
+                link: "https://reactrouter.com/",
             },
         ],
     },
@@ -116,19 +125,22 @@ const mySkills = [
         ],
         subSkills: [
             {
-                name: "Semantic HTML",
+                name: "NPM (Node Package Manager)",
                 description:
-                    "Proper use of semantic tags for better structure and accessibility.",
+                    "Managing dependencies and packages using NPM",
+                link: " https://docs.npmjs.com/",
             },
             {
-                name: "Forms and Validation",
+                name: "State and Props",
                 description:
-                    "Creating forms and handling user input, along with form validation",
+                    "Mastering the concepts of state and props for data management",
+                link: "https://expressjs.com/en/guide/using-middleware.html",
             },
             {
-                name: "HTML Accessibility",
+                name: "React Router",
                 description:
-                    "Implementing features to enhance web accessibility for users with disabilities.",
+                    "Implementing client-side routing in React applications",
+                link: "https://nodejs.org/dist/latest-v14.x/docs/api/fs.html",
             },
         ],
     },
@@ -142,19 +154,22 @@ const mySkills = [
         ],
         subSkills: [
             {
-                name: "Semantic HTML",
+                name: "CRUD Operations",
                 description:
-                    "Proper use of semantic tags for better structure and accessibility.",
+                    "Performing CRUD operations (Create, Read, Update, Delete) in MongoDB",
+                link: "https://docs.mongodb.com/manual/crud/",
             },
             {
-                name: "Forms and Validation",
+                name: "Indexes and Performance",
                 description:
-                    "Creating forms and handling user input, along with form validation",
+                    "Understanding and optimizing MongoDB performance using indexes",
+                link: "https://docs.mongodb.com/manual/indexes/",
             },
             {
-                name: "HTML Accessibility",
+                name: "Aggregation Framework",
                 description:
-                    "Implementing features to enhance web accessibility for users with disabilities.",
+                    "Utilizing MongoDB's aggregation framework for complex data manipulations",
+                    link: "https://docs.mongodb.com/manual/aggregation/"
             },
         ],
     },
