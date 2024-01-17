@@ -22,17 +22,18 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5%;
+  flex-wrap: wrap;
+  gap: 2%;
   list-style: none;
   padding: 0;
-  margin: 0;
-
+  margin-inline: auto;
 }
 
 nav ul li {
   border: solid white 1px;
   padding: 10px;
   border-radius: 10px;
+  margin: 5px;
 
 }
 
@@ -62,3 +63,4 @@ button {
   font-family: 'Courier New', Courier, monospace;
   font-size: medium;
 }
+

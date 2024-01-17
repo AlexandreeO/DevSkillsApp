@@ -5,12 +5,13 @@ var router = express.Router();
 /* GET skills listing. */
 
 router.get("/add", function (req, res, next) {
-  res.render("addskill", { title: "Adding a new skill" });
+    res.render("addskill", { title: "Adding a new skill" });
 });
 
 router.post("/submit", function (req, res, next) {
-  console.log(req.body)
-  res.redirect("/");
+    console.log(req.body);
+    mySkills.push({ name: req.body.skill, id: mySkills.length + 1 });
+    res.redirect("/");
 });
 
 router.get("/:id", function (req, res, next) {
@@ -22,8 +23,5 @@ router.get("/:id", function (req, res, next) {
         }),
     });
 });
-
-
-
 
 module.exports = router;
