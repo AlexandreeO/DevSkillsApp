@@ -64,3 +64,6 @@ button {
   font-size: medium;
 }
 
+ol li form button#delete:hover {
+  color:#007bff !important;
+}

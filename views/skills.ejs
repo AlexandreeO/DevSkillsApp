@@ -18,13 +18,34 @@
             </nav>
         </header>
         <ol>
+            <% if(skill.subSkills && skill.subSkills.length > 0) { %>
             <% for (let subSkill of skill.subSkills) { %>
             <li>
                 <a href="<%= subSkill.link %>"><%= subSkill.name %></a> : <%=
                 subSkill.description %>
-                
             </li>
-            <% } %>
+            <% } }%>
+        </ol>
+        <ol style="list-style: none">
+            <li>
+                <form
+                    action="/skills/<%= skill.id %>?_method=DELETE"
+                    method="POST"
+                >
+                    <button
+                        id="delete"
+                        type="submit"
+                        style="
+                            color: black;
+                            border: 1px solid black;
+                            border-radius: 7px;
+                            cursor: pointer;
+                        "
+                    >
+                        Delete this skill
+                    </button>
+                </form>
+            </li>
         </ol>
     </body>
 </html>
